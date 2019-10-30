@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="layout/js/jquery-3.4.1.min.js"></script>
+   <link rel="stylesheet" href="layout/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="layout/css/bootstrap-rtl.css" />
+   <script src="layout/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="layout/css/main.css">
+   <link rel="stylesheet" type="text/css" href="layout/css/spiner.css">
+   <link rel="stylesheet" type="text/css" href="layout/css/font-awesome.min.css">
+   <script src="https://kit.fontawesome.com/9bb4e0493f.js" crossorigin="anonymous"></script>
+	<title>talab zone</title>
+</head>
+<body>
+
+  <!-- start Nav-bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container text-center ">
+         
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#main_nav" 
+         aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="main_nav">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item  ">
+               <a class="nav-link active" href="#">الرئيسية </a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link " href="#about">حول</a>
+             </li>
+              <li class="nav-item">
+               <a class="nav-link" href="#services">الخدمات</a>
+             </li>
+             <li class="nav-item">
+                    <a class="nav-link" href="#contact">التعليمات</a>
+                  </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#contact">اتصل</a>
+             </li>
+             <li class="nav-item">
+                    <a class="nav-link" href="#contact">تسجيل </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">تسجيل الدخول</a>
+            </li>
+           </ul>  
+           <h4>TalabZone</h4>   
+         </div>
+        </div>
+     </nav>
+     
+     
+     <!-- end Nav-bar-->
+
+<!-- website content-->
+
+
+
+ <div class="container">
+            <img src="layout/img/img5.jpg" class="img-fluid img-bg" alt="logo">
+            <div  class="top-header">
+                    <h2>business and web development</h2>
+                    <h4 >You can search any thing you want</h4>
+
+                    
+                    
+            </div>
+<div class="search-form">
+
+        <form>
+                <div class="form-row">
+                  <div class="col">
+                        <div class="form-group col-md-6">
+                                <select id="input_locaiton" class="form-control">
+                                  <option selected>الموقع</option>
+                                  <option>عمان</option>
+                                  <option>عمان</option>
+                                  <option>عمان</option>
+                                  <option>عمان</option>
+                                </select>
+                              </div>
+                  </div>
+                  <div class="col">
+                        <div class="form-group col-md-6">
+                                <select id="input_category" class="form-control">
+                                  <option selected>حميع الفئات</option>
+                                  <option>مطاعم</option>
+                                  
+                                </select>
+                              </div>
+                  </div>
+                  <div class="col">
+                       
+                        <button type="submit" class="btn btn-primary btn-md">
+                            ابحث
+                            <i class="fas fa-search"></i>
+                        </button>
+                  </div>
+                 
+                </div>
+              </form>
+
+</div>
+
+<div class="categoty">
+
+        <div class="row">
+                <div class="col-md-2 text-center">
+                    <i class="fas fa-utensils"></i>
+                    <p>مطاعم</p>
+                </div>
+            
+                <div class="col-md-2 text-center">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p>مولات</p>
+                </div>
+            
+                <div class="col-md-2 text-center">
+                        <i class="fas fa-plane"></i>
+                            <p>سياحة وسفر</p>
+                </div>
+            
+                <div class="col-md-2 text-center">
+                        <i class="fas fa-candy-cane"></i>
+                                <p>حلويات</p>
+                 </div>
+            </div>
+</div>
+
+
+
+       
+     </div>
+
+
+
+<!-- spinner code-->
+<section class="loading-overlay">
+          <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+          </div>  
+   </section>
+<!-- spinner code-->
+
+
+
+
+
+
+<div class="copy-right">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-6  text-center text-sm-left text-uppercase white">
+        جميع الحقوق محفوظة
+        &copy; 2019</div>
+      <div class="col-sm-6 text-center text-sm-right">
+        <ul class="list-unstyled">
+          <li><i class="fab fa-facebook-f"></i></a></li>
+          <li><i class="fab fa-instagram"></i></a></li>
+          <li><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- end footer-->
+<script>
+  $(window).on('load', function (){
+  "use strict";
+        
+                $("body").css("overflow","auto");
+          $(".loading-overlay,.loading-overlay .sk-folding-cube").fadeOut(3500);
+ });
+</script>
+</body>
+</html>
