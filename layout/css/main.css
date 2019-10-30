@@ -66,10 +66,10 @@ background-color: #fff !important;
 	.top-header h2{
     position: absolute;
     text-align: left !important;
-    left: 100px;
+    left: 80px;
     top: 100px;
     color: white;
-    font-size: 24px;
+    font-size: 16px;
    
 	}
 }
@@ -87,9 +87,9 @@ background-color: #fff !important;
    position: absolute;
     text-align: left !important;
     left: 120px;
-    top: 140px;
+    top: 170px;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
    
 	}
 }
